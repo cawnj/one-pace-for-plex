@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - dist/rename.py
   pull_request:
     branches:
       - main
+    paths:
+      - dist/rename.py
 
 jobs:
   build:

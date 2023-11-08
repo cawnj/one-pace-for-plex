@@ -7,6 +7,8 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+# test change
+
 args = None
 
 SEASONS_JSON = "seasons.json"

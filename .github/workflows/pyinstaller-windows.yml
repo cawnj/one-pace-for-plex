@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - pyinstaller-gh-actions-test
     paths:
       - dist/rename.py
 
